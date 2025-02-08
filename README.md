@@ -5,6 +5,11 @@
 This project involves building a comprehensive weather forecasting platform that predicts daily rainfall probabilities in Australia. The solution integrates web scraping, data science techniques, and machine learning models, combined with a dynamic frontend and backend for user interaction.  
 Visit the webiste  https://rain-forecast.vercel.app/
 
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/a3142f31-37c1-463e-9aef-ad398bdaba45)
+
 ## Features
 
 Weather Data Scraping: Automated extraction of weather data from meteorological websites.
@@ -102,9 +107,7 @@ Frontend: Deployed on Vercel
 
 Backend: Deployed on Render (or any cloud hosting platform)
 
-## Screenshots
 
-Add screenshots here (optional).
 
 # Future Enhancements
 
