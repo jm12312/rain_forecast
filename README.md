@@ -28,6 +28,18 @@ Web Scraping: BeautifulSoup, Requests
 
 Deployment: Vercel for frontend, Render/Heroku for backend
 
+## Machine Learning Pipeline
+
+Data Collection: Scraped live weather data from the Australian Meteorological website using BeautifulSoup. Historical dataset obtained from Kaggle.
+
+Data Preprocessing: Cleaning, handling missing values, and feature engineering data to improve the accuracy of the model.
+
+Model Selection: Evaluated multiple models like XGBoost, Random Forest, Light GBM and various Deep Learning models and optimised the hyperparameters. Best model - 85 % accuracy
+
+Prediction Service: Integrated the selected model into the Flask backend.
+
+Displayed current weather data as well as tomorrow's forecast on the website.
+
 ## Installation
 
 To set up the project locally:
@@ -82,15 +94,6 @@ Visit the frontend at http://localhost:5173.
 
 Use the interface to view current weather data and rainfall forecasts.
 
-## Machine Learning Pipeline
-
-Data Collection: Web scraping from Australia meteorological sites.
-
-Data Preprocessing: Cleaning, handling missing values, and feature engineering.
-
-Model Selection: Evaluated multiple models with hyperparameter tuning.
-
-Prediction Service: Integrated the selected model into the backend.
 
 ## Deployment
 
@@ -102,17 +105,13 @@ Backend: Deployed on Render (or any cloud hosting platform)
 
 Add screenshots here (optional).
 
-Future Enhancements
-
-Real-time weather data updates.
-
-Improved forecasting models.
-
-User authentication and personalization.
+# Future Enhancements
 
 Detailed analytics for weather trends.
 
-Contributing
+
+
+# Contributing
 
 Feel free to fork the project and create pull requests. Contributions are welcome!
 
