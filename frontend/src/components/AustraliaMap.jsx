@@ -148,7 +148,7 @@ const AustraliaMap = ({ date, time }) => {
                             ref={mapRef}
                         >
                             <TileLayer
-                                url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+                                url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=d6a270af-7f5c-4eff-b3b3-6a2ca7420a6d"
                                 attribution='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>'
                             />
 

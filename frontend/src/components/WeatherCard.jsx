@@ -47,7 +47,7 @@ const WeatherCard = ({ details, setDetails, current_weather }) => {
   const pressure3pm = format(weather.Pressure3pm);
   const cloud9am = format(weather.Cloud9am);
   const cloud3pm = format(weather.Cloud3pm);
-  console.log(weather)
+  // console.log(weather)
   return (
     <div className="max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
       <div className="bg-gradient-to-r from-sky-500 to-blue-600 p-4">
