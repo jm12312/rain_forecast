@@ -20,9 +20,9 @@ const AustraliaMap = ({ date, time }) => {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const locationResponse = await axios.get('http://127.0.0.1:5007/api/weather/');
+                const locationResponse = await axios.get('https://rain-forecast.onrender.com/api/weather/');
                 setLocation(locationResponse.data);
-                const weatherResponse = await axios.get('http://127.0.0.1:5007/api/daily-data');
+                const weatherResponse = await axios.get('https://rain-forecast.onrender.com/api/daily-data');
                 setCurrentWeather(weatherResponse.data);
             } catch (error) {
                 console.error("Error fetching data:", error);
@@ -45,7 +45,7 @@ const AustraliaMap = ({ date, time }) => {
         const fetch_location = async () => {
             if (active) {
                 try {
-                    const response = await axios.post('http://127.0.0.1:5007/api/location', {"name": active}, {}, {withCredentials: true});
+                    const response = await axios.post('https://rain-forecast.onrender.com/api/location', {"name": active}, {}, {withCredentials: true});
                     const locationString = response.data.loc;
                     const idx = response.data.idx;
                     const [lat, lon] = JSON.parse(locationString);

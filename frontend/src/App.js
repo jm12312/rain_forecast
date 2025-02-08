@@ -18,7 +18,7 @@ function App() {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const response = await axios.get('http://127.0.0.1:5007/api/home/');
+        const response = await axios.get('https://rain-forecast.onrender.com/api/home/');
         setData(response.data.message);
       } catch (error) {
         console.error("Error fetching data:", error);
